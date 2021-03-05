@@ -80,7 +80,7 @@ while run:
     if keys[pygame.K_z]:
         distance -= MoveSpeed
     if keys[pygame.K_x]:
-    distance += MoveSpeed
+        distance += MoveSpeed
     if keys[pygame.K_f]:
         points[0][2][0] += GrowSpeed
         points[1][2][0] += GrowSpeed
