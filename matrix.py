@@ -1,4 +1,4 @@
-def multiplyMatrix(a, b):
+def multiply_matrix(a, b):
     rowsA = len(a)
     colsA = len(a[0])
     rowsB = len(b)
