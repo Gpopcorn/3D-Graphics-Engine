@@ -567,7 +567,7 @@ while run:
 
     def render_verticies():
         for point in projected_points:
-            pygame.draw.circle(display, RED, (point[0], point[1]), 4)
+            pygame.draw.circle(display, RED, (int(point[0]), int(point[1])), 4)
 
     if do_render_faces == True:
         render_faces()
